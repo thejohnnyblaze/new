@@ -18,6 +18,9 @@
 		C8F049901971898F00D478DC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F0496F1971898F00D478DC /* Cocoa.framework */; };
 		C8F049981971898F00D478DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8F049961971898F00D478DC /* InfoPlist.strings */; };
 		C8F0499A1971898F00D478DC /* newTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F049991971898F00D478DC /* newTests.m */; };
+		C8F049A419718D1400D478DC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8F049A319718D1400D478DC /* MainMenu.xib */; };
+		C8F049A619718D7F00D478DC /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F049A519718D7F00D478DC /* Storyboard.storyboard */; };
+		C8F049A719718E9A00D478DC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8F049841971898F00D478DC /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,8 @@
 		C8F049951971898F00D478DC /* newTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "newTests-Info.plist"; sourceTree = "<group>"; };
 		C8F049971971898F00D478DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C8F049991971898F00D478DC /* newTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = newTests.m; sourceTree = "<group>"; };
+		C8F049A319718D1400D478DC /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		C8F049A519718D7F00D478DC /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,8 +133,10 @@
 			isa = PBXGroup;
 			children = (
 				C8F049771971898F00D478DC /* new-Info.plist */,
+				C8F049A319718D1400D478DC /* MainMenu.xib */,
 				C8F049781971898F00D478DC /* InfoPlist.strings */,
 				C8F0497B1971898F00D478DC /* main.m */,
+				C8F049A519718D7F00D478DC /* Storyboard.storyboard */,
 				C8F0497D1971898F00D478DC /* new-Prefix.pch */,
 				C8F0497E1971898F00D478DC /* Credits.rtf */,
 			);
@@ -232,9 +239,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8F0497A1971898F00D478DC /* InfoPlist.strings in Resources */,
+				C8F049A419718D1400D478DC /* MainMenu.xib in Resources */,
 				C8F049881971898F00D478DC /* Images.xcassets in Resources */,
 				C8F049801971898F00D478DC /* Credits.rtf in Resources */,
 				C8F049861971898F00D478DC /* MainMenu.xib in Resources */,
+				C8F049A619718D7F00D478DC /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8F049981971898F00D478DC /* InfoPlist.strings in Resources */,
+				C8F049A719718E9A00D478DC /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
